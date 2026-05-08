@@ -36,28 +36,24 @@ The dataset consists of 6 main tables:
 ## 🔍 Key Analysis Areas
 
 ### 1. Revenue & Product Analysis
-
-* Revenue by route and month
-* Top-performing product categories
-* Contribution of high-fee items
+* Revenue by route and month 
+* Top-performing product categories 
+* Contribution of high-fee items 
 * Average Order Value (AOV) trends
 
 ### 2. Customer Analytics (RFM & Cohort)
-
-* Customer segmentation using RFM
-* Identification of high-value and at-risk users
+* Customer segmentation using RFM 
+* Identification of high-value and at-risk users 
 * Cohort retention analysis
-* Ordering behavior by time (hour/day)
+* Ordering behavior by time (hour/day) 
 
 ### 3. Operations & Logistics Performance
-
 * Warehouse processing time (foreign, transit, domestic)
-* Bottleneck identification in delivery pipeline
+* Bottleneck identification in delivery pipeline 
 * Completion vs cancellation rates
 * Weight efficiency analysis
 
 ### 4. Advanced Analytics
-
 * Churn customer identification
 * Revenue forecasting (time-series)
 * Business recommendations
@@ -66,13 +62,11 @@ The dataset consists of 6 main tables:
 
 ## 📈 Key Insights
 
-(*Replace with your actual results after analysis*)
-
-* Revenue is heavily concentrated in **[Top Route]**, contributing **X%** of total revenue
-* Conversion & retention decline mainly driven by **[customer segment]**
-* **[Product Category]** generates the highest revenue but has high operational cost
-* Bottleneck identified in **[warehouse stage]**, increasing lead time by **X%**
-* Cohort analysis shows retention drops significantly after month **X**
+* **Geographical Concentration Risk:** Revenue is heavily concentrated in the **IDR (Indonesia)** route, contributing over **3,249T VNĐ**, which represents the vast majority of total sales.
+* **Operational Bottlenecks:** A major bottleneck is identified in **Foreign Warehousing (nn)**; for KRW and USD routes, storage time accounts for over **90%** of the total lead time.
+* **High-Value Product Disparity:** **"Clothing" (Quần Áo)** generates the highest **Average Order Value (AOV)** at **2.7B VNĐ**, despite having lower volume than vehicle parts.
+* **Customer Retention Patterns:** While the returning rate is high (**90.60%**), a large portion of the base consists of **"Potential Loyalists" (228 users)** who need conversion to "Champions".
+* **Peak Engagement Timing:** Customer activity peaks significantly on **Thursdays** and during the **10 AM** and **3-4 PM** time slots.
 
 ---
 
@@ -86,48 +80,58 @@ The dataset consists of 6 main tables:
 
 ## 🧠 Business Recommendations
 
-(*Update after completing analysis*)
-
-* Focus on high-value customer segments (RFM: Champions & Loyal)
-* Improve retention through targeted campaigns for at-risk users
-* Optimize logistics bottlenecks in [specific stage]
-* Expand high-performing routes and product categories
-* Adjust pricing strategy for high-fee items
+* **Diversify Revenue Streams:** Set KPIs to scale the **JPY** and **KRW** routes by targeting high-AOV categories to reduce over-reliance on the IDR route.
+* **Optimize Logistics Lead-Time:** Audit foreign warehouse providers in the **US and Korea** to reduce dwell time and improve the **37.61% delayed rate**.
+* **Accelerate Customer Loyalty:** Launch targeted "Road to Champion" loyalty programs for **"Potential Loyalists"** triggered during peak activity hours.
+* **Tiered Logistics Strategy:** Prioritize high-AOV items (Clothing/Sports) for "Express Handling" to protect high-margin shipments from delays.
+* **Strategic Pricing:** Adjust service fees for high-volume but low-AOV items like **Food** or **Accessories** to optimize the revenue-to-shipping cost ratio.
 
 ---
 
 ## 📂 Project Structure
 
 ```
+
 project/
+
 │
-├── data/
-├── notebooks/        # Python EDA
-├── sql/              # SQL analysis
+
+├── docs/             # Data Dictionary
+
+├── src/              # Python EDA & ETL to BigQuery
+
 ├── dashboard/        # Power BI file
+
 ├── images/           # dashboard preview
+
 ├── README.md
+
 ```
+
+
 
 ---
 
 ## 🚀 How to Run
 
+
+
 1. Clone the repository
-2. Install dependencies:
 
-```
-pip install -r requirements.txt
-```
+2. Run notebook for data processing, EDA
 
-3. Run notebook for data processing
-4. Execute SQL queries for analysis
-5. Open Power BI dashboard
+3. Open Power BI dashboard for exploring insights and corresponding recommendations
+
+
 
 ---
+
+
 
 ## 👤 Author
 
-[Your Name]
 
----
+
+[Nguyễn Đình Sinh Quảng]
+
+
