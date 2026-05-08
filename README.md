@@ -100,8 +100,6 @@ project/
 
 ├── src/              # Python EDA & ETL to BigQuery
 
-├── dashboard/        # Power BI file
-
 ├── images/           # dashboard preview
 
 ├── README.md
