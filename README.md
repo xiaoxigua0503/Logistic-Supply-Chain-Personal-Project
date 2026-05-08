@@ -72,9 +72,9 @@ The dataset consists of 6 main tables:
 
 ## 📊 Dashboard
 
-![Dashboard Preview](images/dashboard.png)
+![Dashboard Preview]<img src="images/overview.png" width="800">
 
-👉 **Live Dashboard:** (add Power BI link here)
+👉 **Live Dashboard:** (https://l.facebook.com/l.php?u=https%3A%2F%2Fapp.powerbi.com%2Fview%3Fr%3DeyJrIjoiNGQ2NDNiZTktNWIyYS00ODNjLThmMWUtYWFlN2I2OGFmOWY5IiwidCI6IjVlOGIzMjY5LTc2Y2EtNDU3Yy04NDdmLTQ0NGUzZGI5ODZhNyIsImMiOjl9%26fbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExQjF2ODRSVHY4ME91a1ZnT3NydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR7yySBzSa8i6S_QF9ZBlHnBtwZNrKj-ZMa_EmGm75oSnP-n7NsT9WgVAvxGdg_aem_uw8xAVEz_RHE-tf6EbFdlg%26brid%3DYWdncwF8Bl8uglCJLcKOuF38aDHx&h=AUAkNgeCL5fQHwTuDkk5V3Lo6f2u7ZkqwM1wqCQpaXsEsCKmu2odQ6L5hHJgpsYMr5ho-fbKaPwyfKU-pT2J78OmV0pNydWEx5A511o0hoNPXVCykvpVCsL424ZFnCqPRKGDzw)
 
 ---
 
